@@ -7,5 +7,5 @@ COPY server.js ./
 COPY src ./src
 ENV PORT=3000
 EXPOSE 3000
-USER root
+USER node
 CMD ["node", "server.js"]
